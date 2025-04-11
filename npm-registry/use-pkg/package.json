@@ -1,0 +1,11 @@
+{
+  "name": "use-pkg",
+  "packageManager": "yarn@4.9.0",
+  "scripts": {
+    "build": "tsc",
+    "run:ts": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
+}
