@@ -1,13 +1,23 @@
 {
   "name": "@shinoda-yosuke-lvgs/hoge-pkg",
-  "version": "0.0.1",
+  "version": "0.0.1-1",
+  "main": "dist/index.js",
+  "packageManager": "yarn@4.9.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shinoda-yosuke-lvgs/projects.git",
+    "url": "git+https://github.com/shinoda-yosuke-lvgs/projects.git",
     "directory": "npm-registry/hoge-pkg"
   },
-  "packageManager": "yarn@4.9.0",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "dependencies": {
     "typescript": "^5.8.3"
-  }
+  },
+  "scripts": {
+    "build": "tsc",
+    "publish": "GITHUB_TOKEN=$(gh auth token) yarn npm publish"
+  },
+  "stableVersion": "0.0.1-0"
 }

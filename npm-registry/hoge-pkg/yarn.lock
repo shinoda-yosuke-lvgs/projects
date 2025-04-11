@@ -5,9 +5,9 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"hoge-pkg@workspace:.":
+"@shinoda-yosuke-lvgs/hoge-pkg@workspace:.":
   version: 0.0.0-use.local
-  resolution: "hoge-pkg@workspace:."
+  resolution: "@shinoda-yosuke-lvgs/hoge-pkg@workspace:."
   dependencies:
     typescript: "npm:^5.8.3"
   languageName: unknown
