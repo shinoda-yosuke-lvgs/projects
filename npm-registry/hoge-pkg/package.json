@@ -1,6 +1,6 @@
 {
   "name": "@shinoda-yosuke-lvgs/hoge-pkg",
-  "version": "0.0.1-1",
+  "version": "0.0.1-2",
   "main": "dist/index.js",
   "packageManager": "yarn@4.9.0",
   "repository": {
@@ -19,5 +19,5 @@
     "build": "tsc",
     "publish": "GITHUB_TOKEN=$(gh auth token) yarn npm publish"
   },
-  "stableVersion": "0.0.1-0"
+  "stableVersion": "0.0.1-1"
 }

@@ -38,6 +38,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@shinoda-yosuke-lvgs/hoge-pkg@npm:^0.0.1-0":
+  version: 0.0.1-1
+  resolution: "@shinoda-yosuke-lvgs/hoge-pkg@npm:0.0.1-1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40shinoda-yosuke-lvgs%2Fhoge-pkg%2F0.0.1-1%2F625b19f4329b9108716c7756530a06ee5ecab79d"
+  dependencies:
+    typescript: "npm:^5.8.3"
+  checksum: 10c0/80e055b27b13ded9a217bc4a49452f85fb970ea399463cd406e11ea1fa60bb28bd0be31d25e2f567c3b84665c03f3a4204b151c11f2e43c82908d35fc190da3a
+  languageName: node
+  linkType: hard
+
 "@tsconfig/node10@npm:^1.0.7":
   version: 1.0.11
   resolution: "@tsconfig/node10@npm:1.0.11"
@@ -174,6 +183,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "use-pkg@workspace:."
   dependencies:
+    "@shinoda-yosuke-lvgs/hoge-pkg": "npm:^0.0.1-0"
     ts-node: "npm:^10.9.2"
     typescript: "npm:^5.8.3"
   languageName: unknown

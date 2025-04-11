@@ -6,6 +6,10 @@
     "run:ts": "ts-node src/index.ts"
   },
   "dependencies": {
+    "@shinoda-yosuke-lvgs/hoge-pkg": "^0.0.1-0",
     "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
   }
 }
